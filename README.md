@@ -45,6 +45,12 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+```bash
+# custom script to rebuild the db, and migrate the prisma scheme
+$ npm run db:dev:restart 
+
+```
+
 ## Test
 
 ```bash
