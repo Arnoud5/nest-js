@@ -38,8 +38,8 @@ export class BlogController {
     return this.blogService.getBlogById(post_id);
   }
 
-  @Get('post/hello')
+  @Get('say/hello')
   async sayhello() {
-    return 'hey';
+    return 'hello world';
   }
 }
