@@ -37,4 +37,9 @@ export class BlogController {
   async getBlogById(@Param('post_id') post_id: number) {
     return this.blogService.getBlogById(post_id);
   }
+
+  @Get('post/hello')
+  async sayhello() {
+    return 'hey';
+  }
 }
