@@ -60,3 +60,4 @@ model Blog {
 
   // @@map("blogs")
 }
+
